@@ -58,14 +58,47 @@ body {
   max-width: 600px;
 }
 
-/* Info header text */
+.info {
+  padding: 60px 20px;
+  background: #fff;
+}
+
 .info-header {
   font-size: 36px;
   font-weight: 800;
   color: #1F2937;
   text-align: center;
-  margin: 40px 0;
+  margin-bottom: 40px;
 }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;              /* space between items */
+  flex-wrap: nowrap;      /* force them to stay in one row */
+}
+
+.card {
+  text-align: center;
+  color: #4b5563;
+  max-width: 200px;
+}
+
+.card img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;       /* crop & fit into square */
+  border: 3px solid #3882F6;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
 
 /* Quote section */
 .quote-section {
