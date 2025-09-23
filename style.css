@@ -27,21 +27,21 @@ body {
 
 .dark-bg {
   background-color: #1F2937;
-  padding: 40px;
-  display: flex;            
-  align-items: center;     
+  padding: 60px 80px;
+  display: flex;                /* place text and image side by side */
   justify-content: space-between;
-  gap: 20px;             
+  align-items: center;
+  gap: 40px;
 }
 
 .hero-text {
-  flex: 1;  
+  flex: 1; /* text takes half space */
 }
 
 .hero-image img {
-  max-width: 100%;
+  max-width: 400px;
   height: auto;
-  border-radius: 8px;
+  border-radius: 8px; /* optional */
 }
 
 /* Hero main text */
