@@ -3,12 +3,7 @@ body {
   font-family: sans-serif;
 }
 
-/* Dark background (hero + footer) */
-.dark-bg {
-  background-color: #1F2937;
-  padding: 40px;
-}
-
+/* Header */
 .header {
   background-color: #1F2937;
   display: flex;
@@ -30,10 +25,16 @@ body {
   font-size: 18px;
 }
 
+/* Dark background (hero + footer) */
+.dark-background {
+  background-color: #1F2937;
+  padding: 40px;
+}
+
 /* Hero main text */
 .hero-main {
   font-size: 48px;
-  font-weight: 800; /* extra-bold */
+  font-weight: 800;
   color: #F9FAF8;
 }
 
@@ -41,12 +42,7 @@ body {
 .hero-secondary {
   font-size: 18px;
   color: #E5E7EB;
-}
-
-/* Header logo text */
-.logo {
-  font-size: 24px;
-  color: #F9FAF8;
+  max-width: 600px;
 }
 
 /* Info header text */
