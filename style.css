@@ -25,10 +25,23 @@ body {
   font-size: 18px;
 }
 
-/* Dark background (hero + footer) */
 .dark-bg {
   background-color: #1F2937;
   padding: 40px;
+  display: flex;            
+  align-items: center;     
+  justify-content: space-between;
+  gap: 20px;             
+}
+
+.hero-text {
+  flex: 1;  
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* Hero main text */
