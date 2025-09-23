@@ -103,7 +103,7 @@ body {
 /* Quote section */
 .quote-section {
   background-color: #E5E7EB;
-  padding: 40px;
+  padding: 60px 120px;
 }
 .quote-text {
   font-size: 36px;
@@ -115,6 +115,11 @@ body {
   text-align: right;
   font-weight: 700;
   margin-top: 10px;
+}
+
+.quote-section2 {
+  background-color: #E5E7EB;
+  padding: 60px 120px;
 }
 
 /* Call-to-action */
